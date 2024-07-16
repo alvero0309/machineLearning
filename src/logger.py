@@ -6,6 +6,8 @@
 import logging
 import os
 from datetime import datetime
+
+BASE_DIR = '/home/ale/Escritorio/Proyectos/machineLearning'
 #El nombre del archivo log
 LOG_FILE=f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 #Se obtiene con os.getcwd el workin directory y se crea una carpeta logs
